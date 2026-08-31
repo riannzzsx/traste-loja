@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "nome": "Violão Aço Nogueira 40\"",
+    "categoria": "Cordas",
+    "preco": 890.00,
+    "descricao": "Corpo em nogueira maciça, cordas de aço, ideal pra quem tá começando no violão popular.",
+    "emoji": "🎸",
+    "estoque": 7
+  },
+  {
+    "id": 2,
+    "nome": "Guitarra Elétrica Custom SG",
+    "categoria": "Cordas",
+    "preco": 2450.00,
+    "descricao": "Corpo mogno, captadores humbucker duplos, braço parafusado. Som encorpado pra rock e blues.",
+    "emoji": "🎸",
+    "estoque": 3
+  },
+  {
+    "id": 3,
+    "nome": "Baixo 4 Cordas Jazz Style",
+    "categoria": "Cordas",
+    "preco": 1980.00,
+    "descricao": "Escala de 34 polegadas, captadores single coil, grave definido pra qualquer estilo.",
+    "emoji": "🎸",
+    "estoque": 5
+  },
+  {
+    "id": 4,
+    "nome": "Saxofone Alto Laqueado",
+    "categoria": "Sopro",
+    "preco": 3200.00,
+    "descricao": "Corpo em latão laqueado dourado, ideal pra jazz, MPB e big band.",
+    "emoji": "🎷",
+    "estoque": 2
+  },
+  {
+    "id": 5,
+    "nome": "Flauta Transversal Prateada",
+    "categoria": "Sopro",
+    "preco": 780.00,
+    "descricao": "Corpo niquelado prateado, mecanismo Boehm, leve e fácil de embocar.",
+    "emoji": "🪈",
+    "estoque": 6
+  },
+  {
+    "id": 6,
+    "nome": "Kit Bateria Acústica 5 Peças",
+    "categoria": "Percussão",
+    "preco": 3990.00,
+    "descricao": "Bumbo, dois tons, surdo e caixa em madeira de bordo, com pratos de brinde.",
+    "emoji": "🥁",
+    "estoque": 2
+  },
+  {
+    "id": 7,
+    "nome": "Cajón Peruano Artesanal",
+    "categoria": "Percussão",
+    "preco": 420.00,
+    "descricao": "Feito à mão em compensado de imbuia, esteira interna ajustável, som seco e grave.",
+    "emoji": "🪘",
+    "estoque": 9
+  },
+  {
+    "id": 8,
+    "nome": "Afinador Digital Clip-on",
+    "categoria": "Acessórios",
+    "preco": 45.00,
+    "descricao": "Prende na cabeça do instrumento, detecta vibração, funciona pra corda e sopro.",
+    "emoji": "🎛️",
+    "estoque": 30
+  },
+  {
+    "id": 9,
+    "nome": "Capa Acolchoada Universal",
+    "categoria": "Acessórios",
+    "preco": 120.00,
+    "descricao": "Espuma de 10mm, alças reforçadas, protege violão, guitarra ou baixo no transporte.",
+    "emoji": "🎒",
+    "estoque": 15
+  },
+  {
+    "id": 10,
+    "nome": "Jogo de Cordas Encapadas 010",
+    "categoria": "Acessórios",
+    "preco": 38.00,
+    "descricao": "Cordas de aço encapadas, brilho prolongado, pra violão e guitarra.",
+    "emoji": "🎻",
+    "estoque": 40
+  }
+]

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Como fiz — Traste</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .comofiz {
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 56px 24px 80px;
+    }
+    .comofiz h1 {
+      font-family: var(--font-display);
+      font-size: 2rem;
+      color: var(--wood-dark);
+      margin-bottom: 8px;
+    }
+    .comofiz p.lead {
+      color: #5A4B3D;
+      margin-bottom: 32px;
+    }
+    .video-wrap {
+      position: relative;
+      width: 100%;
+      padding-top: 56.25%; /* 16:9 */
+      background: var(--wood-dark);
+      border-radius: 10px;
+      overflow: hidden;
+      margin-bottom: 40px;
+    }
+    .video-wrap iframe,
+    .video-wrap video {
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      border: 0;
+    }
+    .video-placeholder {
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--parchment);
+      opacity: 0.6;
+      font-size: 0.9rem;
+      text-align: center;
+      padding: 20px;
+    }
+    .comofiz h2 {
+      font-family: var(--font-display);
+      font-size: 1.3rem;
+      color: var(--wood-dark);
+      margin-top: 36px;
+    }
+    .comofiz ul { padding-left: 20px; color: #4A3B2D; }
+    .comofiz li { margin-bottom: 6px; }
+    .back-link { display: inline-block; margin-top: 40px; color: var(--wine); font-weight: 600; }
+  </style>
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="topbar__inner">
+      <a href="index.html" class="logo">TRASTE<span class="logo__dot">.</span></a>
+      <nav class="topnav">
+        <a href="index.html">Loja</a>
+        <a href="como-fiz.html">Como fiz</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="comofiz">
+    <h1>Como eu fiz a Traste</h1>
+    <p class="lead">Passeio pelo código, pelas decisões e pelo raciocínio por trás da loja — do catálogo em JSON até o deploy.</p>
+
+    <div class="video-wrap">
+      <!--:
+      <iframe src="https://www.youtube.com/embed/SEU_VIDEO_ID" title="Como fiz a Traste" allowfullscreen></iframe>
+      -->
+      <div class="video-placeholder"> &lt;iframe&gt;  &lt;video&gt; (bônus: auto-hospedado).</div>
+    </div>
+
+    <h2>O que o vídeo cobre</h2>
+    <ul>
+      <li>O que foi construído e como os arquivos estão organizados</li>
+      <li>Por que o catálogo (products.json) fica separado do front — headless commerce</li>
+      <li>Como essa loja mapearia pra AWS: navegador → CDN → origem</li>
+      <li>Auditoria do Lighthouse ao vivo e plano de melhoria</li>
+      <li>Onde a IA entraria nessa loja e o que foi mais difícil de construir</li>
+    </ul>
+
+    <a href="index.html" class="back-link">← Voltar pra loja</a>
+  </main>
+
+  <footer class="footer">
+    <p>Traste — projeto do Desafio Bootcamp AI/R, trilha Commerce.</p>
+  </footer>
+
+</body>
+</html>

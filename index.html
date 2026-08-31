@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Traste — Loja de Instrumentos Musicais</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="topbar__inner">
+      <a href="index.html" class="logo">TRASTE<span class="logo__dot">.</span></a>
+      <nav class="topnav">
+        <a href="index.html">Loja</a>
+        <a href="como-fiz.html">Como fiz</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero__inner">
+      <p class="hero__eyebrow">instrumentos &amp; acessórios pra quem toca de verdade</p>
+      <h1 class="hero__title">O traste certo<br>pro seu som.</h1>
+      <p class="hero__sub">Cordas, sopro, percussão e tudo que fica entre o instrumento e o palco.</p>
+    </div>
+  </section>
+
+  <main class="shop">
+    <div class="shop__controls">
+      <input
+        type="search"
+        id="search-input"
+        class="search-input"
+        placeholder="Buscar por nome ou descrição..."
+        aria-label="Buscar produtos"
+      >
+      <div class="category-filters" id="category-filters" role="group" aria-label="Filtrar por categoria">
+        <!-- botões de categoria injetados via JS -->
+      </div>
+    </div>
+
+    <p class="result-count" id="result-count" aria-live="polite"></p>
+
+    <div class="product-grid" id="product-grid">
+      <!-- produtos injetados via JS a partir de products.json -->
+    </div>
+
+    <p class="empty-state" id="empty-state" hidden>
+      Nenhum instrumento encontrado. Tenta outro termo ou categoria.
+    </p>
+  </main>
+
+  <footer class="footer">
+    <p>Traste — projeto do Desafio Bootcamp AI/R, trilha Commerce. <a href="como-fiz.html">Veja como foi feito →</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
